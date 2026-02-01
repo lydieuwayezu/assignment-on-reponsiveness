@@ -1,6 +1,4 @@
 * {
-
-
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -62,6 +60,7 @@
   padding: 80px 50px;
   text-align: center;
   background: white;
+ 
 }
 
 footer {
@@ -97,7 +96,7 @@ footer {
 }
 
 .navbar a:hover {
-  color: #ecdda2;
+  color: #f9ca0e;
 }
 .parallax {
   min-height: 100vh;
@@ -130,9 +129,10 @@ footer {
 
 
 .content {
-  padding: 80px 50px;
+  padding: 70px 40px;
   text-align: center;
   background: white;
+   
 }
 
 footer {
