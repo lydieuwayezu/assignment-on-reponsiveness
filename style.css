@@ -1,4 +1,6 @@
 * {
+
+
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -63,8 +65,8 @@
 }
 
 footer {
-  background: black;
-  color: white;
+  background: rgb(186, 110, 110);
+  color: rgb(136, 96, 96);
   text-align: center;
   padding: 20px;
 }
@@ -74,10 +76,10 @@ footer {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/* Navigation */
+
 .navbar {
   position: fixed;
   top: 0;
@@ -95,10 +97,8 @@ footer {
 }
 
 .navbar a:hover {
-  color: #f1c40f;
+  color: #ecdda2;
 }
-
-/* Parallax sections */
 .parallax {
   min-height: 100vh;
   background-attachment: fixed;
@@ -112,7 +112,7 @@ footer {
 .bg2 { background-image: url("images/bg2.jpg"); }
 .bg3 { background-image: url("images/bg3.jpg"); }
 
-/* Caption text */
+
 .caption {
   position: absolute;
   top: 50%;
@@ -128,22 +128,20 @@ footer {
   letter-spacing: 5px;
 }
 
-/* Content sections */
+
 .content {
   padding: 80px 50px;
   text-align: center;
   background: white;
 }
 
-/* Footer */
 footer {
-  background: black;
+  background: rgb(115, 103, 103);
   color: white;
   text-align: center;
   padding: 20px;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .caption .title {
     font-size: 20px;
